@@ -84,8 +84,8 @@ Also see my [Google Scholar Profile](https://scholar.google.com/citations?user=f
 <td><img class="proj_thumb" src="TIP2022.png" width="350px" alt=""/>&nbsp;</td>
 <td><div class="pub_title"> Recovering Realistic Details for
 Magnification-Arbitrary Image Super-Resolution </div>
-<div class="pub_author"> Cheng Ma, <b>Peiqi Yu, Jiwen Lu, Jie Zhou</div>
-<div class="pub_journal"><b>IEEE Transactions on Image Processing</b>, 2022 [<a href="https://ieeexplore.ieee.org/abstract/document/9776607">Paper</a>]</div>
+<div class="pub_author"> Cheng Ma, <b>Peiqi Yu, Jiwen Lu, Jie Zhou.#</div>
+<div class="pub_journal"><b>IEEE Transactions on Image Processing</b>, 2022</i> [<a href="https://ieeexplore.ieee.org/abstract/document/9776607">Paper</a>]</div>
 </td>
 </tr>
 
