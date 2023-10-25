@@ -39,8 +39,26 @@ Work Experiences
     <span class="pull-left"><img src="images/thu.png" width="75px" height="75px"/></span>
     <div class="media-body">
         <div><span style="font-weight: bold">Intern</span></div>
+        <div>Information Processing Institute</div>
+        <div>Tsinghua University, 2021-2022</div>
+    </div>
+</div>
+
+<div class="media">
+    <span class="pull-left"><img src="images/thu.png" width="75px" height="75px"/></span>
+    <div class="media-body">
+        <div><span style="font-weight: bold">Intern</span></div>
         <div>National Engineering Lab for Neuromodulation</div>
-        <div>Tsinghua University, 2021</div>
+        <div>Tsinghua University, 2022-2023</div>
+    </div>
+</div>
+
+<div class="media">
+    <span class="pull-left"><img src="images/CMU.png" width="75px" height="75px"/></span>
+    <div class="media-body">
+        <div><span style="font-weight: bold">Intern</span></div>
+        <div>Intelligent Control Lab</div>
+        <div>Carnegie Mellon Univeristy, 2023</div>
     </div>
 </div>
 
@@ -63,10 +81,11 @@ Also see my [Google Scholar Profile](https://scholar.google.com/citations?user=f
 <table>
 
 <tr>
-<td><img class="proj_thumb" src="images/NChem2023.png" width="350px" alt=""/>&nbsp;</td>
-<td><div class="pub_title"> Genetically encoded chemical crosslinking of RNA in vivo </div>
-<div class="pub_author"> Sun, W.*, Wang, N.*, <b>Liu, H.</b>, Yu, H., ... Shen, Y., Wang, L.#</div>
-<div class="pub_journal"><b>Nature Chemistry</b>, 2023 [<a href="https://doi.org/10.1038/s41557-022-01038-4">Paper</a>] [<a href="https://github.com/Shall-We-Dance/GRIP-seq">GitHub</a>] [<a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA797913">NCBI SRA</a>]</div>
+<td><img class="proj_thumb" src="TIP2022.png" width="350px" alt=""/>&nbsp;</td>
+<td><div class="pub_title"> Recovering Realistic Details for
+Magnification-Arbitrary Image Super-Resolution </div>
+<div class="pub_author"> Cheng Ma, <b>Peiqi Yu, Jiwen Lu, Jie Zhou</div>
+<div class="pub_journal"><b>IEEE Transactions on Image Processing</b>, 2022 [<a href="https://ieeexplore.ieee.org/abstract/document/9776607">Paper</a>]</div>
 </td>
 </tr>
 
@@ -76,7 +95,7 @@ Academic Awards
 ------
 
  * Scholarship for Acacademic Excellence, Tsinghua University
- * Scholarship for Science and Technology Excellence, Tsinghua University
+ * Scholarship for Science&Technology Excellence, Tsinghua University
  * Third Price in The Challenge Cup, Tsinghua University
  * Third Prize in the Electronics Design Competition, Tsinghua University
 
@@ -97,7 +116,7 @@ Technical Skills
 [![](https://img.shields.io/badge/Jupiter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)]()
 [![](https://img.shields.io/badge/Scikit%20learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)]()
 
-### software & hardware
+### Software & Hardware
 [![](https://img.shields.io/badge/Mujuco-412991?style=for-the-badge&logo=mujuco&logoColor=white)]()
 [![](https://img.shields.io/badge/Openai%20Gym-0081A5?style=for-the-badge&logo=openaigym&logoColor=white)]()
 [![](https://img.shields.io/badge/Ros-22314E?style=for-the-badge&logo=ros&logoColor=white)]()
@@ -105,7 +124,7 @@ Technical Skills
 [![](https://img.shields.io/badge/Kinova-1A1F6C?style=for-the-badge&logo=kinova&logoColor=white)]()
 [![](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)]()
 
-### systems
+### Systems
 [![](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
 [![](https://img.shields.io/badge/Windows-0067B8?style=for-the-badge&logo=windows%2011&logoColor=white)]()
 
