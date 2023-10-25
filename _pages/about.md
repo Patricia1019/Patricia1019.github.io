@@ -11,7 +11,7 @@ redirect_from:
 
 Reseach Interests
 ======
-Human-robot collaboration & control, learning, computer vision
+Human-Robot Collaboration & Control, Learning, Computer Vision
 
 Education
 ------
@@ -83,7 +83,7 @@ Academic Awards
 Technical Skills
 ------
 
-### Languages
+### Languages & Libraries
 
 [![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
 [![](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)]()
@@ -91,21 +91,19 @@ Technical Skills
 [![](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)]()
 
-### Libraries
 [![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)]()
 [![](https://img.shields.io/badge/Rospy-22314E?style=for-the-badge&logo=ros&logoColor=white)]()
 [![](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)]()
 [![](https://img.shields.io/badge/Jupiter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)]()
 [![](https://img.shields.io/badge/Scikit%20learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)]()
 
-### software
+### software & hardware
 [![](https://img.shields.io/badge/Mujuco-412991?style=for-the-badge&logo=mujuco&logoColor=white)]()
 [![](https://img.shields.io/badge/Openai%20Gym-0081A5?style=for-the-badge&logo=openaigym&logoColor=white)]()
 [![](https://img.shields.io/badge/Ros-22314E?style=for-the-badge&logo=ros&logoColor=white)]()
 
-### hardware
-[![](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)]()
 [![](https://img.shields.io/badge/Kinova-1A1F6C?style=for-the-badge&logo=kinova&logoColor=white)]()
+[![](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)]()
 
 ### systems
 [![](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)]()
