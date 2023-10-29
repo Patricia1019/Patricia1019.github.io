@@ -1,27 +1,14 @@
 ---
-title: ""
+title: "Paper Title Number 1"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: ''
-date: 2000-01-01
-venue: ''
-paperurl: 'https://scholar.google.com/citations?user=f_lK1RYAAAAJ&hl=en'
-citation: ''
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2009-10-01
+venue: 'Journal 1'
+paperurl: 'http://patricia1019.github.io/files/TIP2022.pdf'
+citation: 'Cheng Ma, Peiqi Yu, Jiwen Lu, Jie Zhou. (2022). &quot;Recovering Realistic Details for Magnification-Arbitrary Image Super-Resolution.&quot; <i>IEEE Transactions on Image Processing</i>. vol.31.'
 ---
-Also see my [Google Scholar Profile](https://scholar.google.com/citations?user=f_lK1RYAAAAJ&hl=en).
+This paper is about the number 1. The number 2 is left for future work.
 
-<table>
-
-<tr>
-<td><img class="proj_thumb" src="images/TIP2022graph.png" width="350px" alt=""/>&nbsp;</td>
-<td><div class="pub_title"> R<b>ecovering Realistic Details for
-Magnification-Arbitrary Image Super-Resolution</b> </div>
-<div class="pub_author"> Cheng Ma, <b>Peiqi Yu</b>, Jiwen Lu, Jie Zhou.# </div>
-<div class="pub_journal"><i><b>IEEE Transactions on Image Processing</b>, 2022</i> [<a href="https://ieeexplore.ieee.org/abstract/document/9776607">Paper</a>]</div>
-</td>
-</tr>
-
-</table>
-
-See my [Google Scholar Profile](https://scholar.google.com/citations?user=f_lK1RYAAAAJ&hl=en).
+[Download paper here](http://patricia1019.github.io/files/TIP2022.pdf)
 
