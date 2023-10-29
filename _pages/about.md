@@ -8,10 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-
-Reseach Interests
+About me
 ======
-Human-Robot Collaboration & Control, Learning, Computer Vision
+I am currently a short term scholar in the robotics institute of <b>Carnegie Mellon University</b> and with great pleasure under the guidance of Prof.Changliu Liu. I obtained my bachelor’s degree at Department of Automation, <b>Tsinghua University</b>, mentored by Prof.Jiwen Lu and Prof.Chao Shang.
+
+My research interests lies in <b>Human-Robot Collaboration</b>, <b>Control</b>, <b>Learning </b>and <b>Computer Vision</b>.
+
+I really enjoy the feeling when I am turning my ideas into reality and creating new things. I am strongly aiming at pursuing a <b>Ph.D. degree</b>, where I can get an opportunity to explore further and make meaningful contributions.
+
 
 Education
 ------
@@ -82,8 +86,8 @@ Also see my [Google Scholar Profile](https://scholar.google.com/citations?user=f
 
 <tr>
 <td><img class="proj_thumb" src="images/TIP2022graph.png" width="350px" alt=""/>&nbsp;</td>
-<td><div class="pub_title"> Recovering Realistic Details for
-Magnification-Arbitrary Image Super-Resolution </div>
+<td><div class="pub_title"> R<b>ecovering Realistic Details for
+Magnification-Arbitrary Image Super-Resolution</b> </div>
 <div class="pub_author"> Cheng Ma, <b>Peiqi Yu</b>, Jiwen Lu, Jie Zhou.# </div>
 <div class="pub_journal"><i><b>IEEE Transactions on Image Processing</b>, 2022</i> [<a href="https://ieeexplore.ieee.org/abstract/document/9776607">Paper</a>]</div>
 </td>
