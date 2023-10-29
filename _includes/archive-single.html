@@ -60,5 +60,13 @@
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
+    {% if post.image %}
+      <p>
+        <tr>
+        <td><img class="proj_thumb" src=" {{ post.img }} " width="700px" alt=""/>&nbsp;</td>
+        </tr>
+      </p>
+    {% endif %}
+
   </article>
 </div>
