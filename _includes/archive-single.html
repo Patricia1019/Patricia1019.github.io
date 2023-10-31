@@ -48,7 +48,13 @@
         {% endif %}
 
         {% if post.citation %}
-        <div style="border: 1px solid rgb(171, 166, 166); padding: 5px;"><p>{{ post.citation }} </p></div>
+        <div style="display: flex; align-items: center;">
+          <div style="width: 20px; height: 100px; background-color: black; margin-right: 10px;"></div>
+          <div style="background-color: #ccc; padding: 10px; border-radius: 5px;">
+            {{ post.citation }}
+          </div>
+        </div>
+        <!-- <div style="border: 1px solid rgb(171, 166, 166); padding: 5px;"><p>{{ post.citation }} </p></div> -->
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
