@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.reseach_experiences reversed %}
+{% for post in site.research_experiences reversed %}
   {% include archive-single-research.html %}
 {% endfor %}
