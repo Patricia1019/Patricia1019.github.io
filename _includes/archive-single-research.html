@@ -29,9 +29,11 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
+      {% elsif post.paperurl %}
         <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
         <p>{{ post.index }}. {{ post.title }}.[<a href="{{ post.paperurl }}">PAPER</a>]</p>
+      {% else %}
+        <p>{{ post.index }}. {{ post.title }}</p>
       {% endif %}
     </h2>
     
@@ -43,8 +45,8 @@
           <p> {{ post.type }}, <b><i>{{ post.venue }}</i></b>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date_show %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>{{ post.collection }} &nbsp; </strong> { post.date_show } </p>
+        {% elsif post.collection == 'research_experiences' %}
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>{{ post.type }} &nbsp; </strong> {{ post.date_show }} </p>
         {% endif %}
 
         {% if post.citation %}
