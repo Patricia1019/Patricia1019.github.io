@@ -6,7 +6,7 @@ excerpt: '<b>Abstarct:</b> Bayesian optimization is widely used for black-box fu
 date: 2023-06-24
 # venue: 'IEEE Transactions on Image Processing vol.31'
 # paperurl: 'https://ieeexplore.ieee.org/document/9776607'
-citation: '<i>Advisor: Yilin Mo, Associate Professor, Department of Automation, Tsinghua University <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Yanan Sui, Associate Professor, Department of Aerospace Engineering, Tsinghua University</i>' 
+citation: '<i>Advisor: Yilin Mo, Associate Professor, Department of Automation, Tsinghua University <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Yanan Sui, Associate Professor, Department of Aerospace Engineering, Tsinghua University</i>' 
 img: "/images/TIP2022graph.png"
 ---
 
