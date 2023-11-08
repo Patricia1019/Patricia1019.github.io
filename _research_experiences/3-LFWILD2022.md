@@ -8,9 +8,10 @@ date: 2022-07-08
 date_show: "2022"
 # venue: 'IEEE Transactions on Image Processing vol.31'
 # paperurl: 'https://ieeexplore.ieee.org/document/9776607'
-citation: '<i>Advisor: <br>Dorsa Sadigh, Associate Professor, Department of 
- Computer Science, Stanford
- <br>Yanan Sui, Associate Professor, Department of Aerospace Engineering, THU</i>' 
+citation: '<i>Advisor:
+<br>Yanan Sui, Associate Professor, Department of Aerospace Engineering, THU
+<br>Dorsa Sadigh, Associate Professor, Department of Computer Science, Stanford
+</i>' 
 img: "/images/LFWILD2022.png"
 ---
 
