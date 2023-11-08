@@ -12,7 +12,7 @@ About me
 ======
 I am currently a short term scholar in the robotics institute of <b>Carnegie Mellon University</b> and with great pleasure under the guidance of Prof.Changliu Liu. I obtained my bachelor’s degree at Department of Automation, <b>Tsinghua University</b>, mentored by Prof.Jiwen Lu and Prof.Chao Shang.
 
-My research interests lies in <b>Human-Robot Collaboration</b>, <b>Control</b>, <b>Learning </b>and <b>Computer Vision</b>.
+My research interests lies in <b>Human-Robot Collaboration</b>, <b>Learning</b>, <b>Optimization</b>, <b>Control</b>, and <b>Computer Vision</b>.
 
 I really enjoy the feeling when I am turning my ideas into reality and creating new things. I am strongly aiming at pursuing a <b>Ph.D. degree</b>, where I can get an opportunity to explore further and make meaningful contributions.
 
