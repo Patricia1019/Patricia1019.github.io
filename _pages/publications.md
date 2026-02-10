@@ -14,7 +14,8 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{% bibliography %}
-
+	<p>
+		Publications are not rendered in this build. See the
+		<a href="{{ '/_bibliography/papers.bib' | relative_url }}">BibTeX file</a>.
+	</p>
 </div>

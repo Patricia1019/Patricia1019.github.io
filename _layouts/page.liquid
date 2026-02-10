@@ -21,7 +21,12 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% bibliography --cited_in_order %}
+      <p>
+        References are not rendered in this build. See
+        <a href="{{ '/publications/' | relative_url }}">publications</a>
+        or the
+        <a href="{{ '/_bibliography/papers.bib' | relative_url }}">BibTeX file</a>.
+      </p>
     </div>
   {% endif %}
 
