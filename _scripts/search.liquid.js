@@ -80,6 +80,9 @@ ninja.data = [
   {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
+      {%- if collection.label == 'projects' and site.projects_in_search == false -%}{%- continue -%}{%- endif -%}
+      {%- if collection.label == 'books' and site.books_in_search == false -%}{%- continue -%}{%- endif -%}
+      {%- if collection.label == 'teachings' and site.teachings_in_search == false -%}{%- continue -%}{%- endif -%}
       {%- for item in collection.docs -%}
         {
           {%- if item.inline -%}

@@ -1,8 +1,3 @@
-<div class="publications">
-  <p>
-    Selected publications are not rendered in this build. See
-    <a href="{{ '/publications/' | relative_url }}">publications</a>
-    or the
-    <a href="{{ '/_bibliography/papers.bib' | relative_url }}">BibTeX file</a>.
-  </p>
+<div class="publications selected-publications">
+  {% bibliography --query @*[selected=true] %}
 </div>

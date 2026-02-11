@@ -1,0 +1,57 @@
+/***********************************************************************
+ * Selected publications (about page) - simpler layout
+ ***********************************************************************/
+
+.selected-publications {
+  h2.bibliography {
+    display: none;
+  }
+
+  ol.bibliography {
+    display: grid;
+    gap: 0.75rem;
+
+    li {
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      box-shadow: none;
+
+      .pub-entry,
+      .pub-entry.has-media {
+        grid-template-columns: minmax(140px, 180px) 1fr;
+        gap: 1rem;
+      }
+
+      .pub-media {
+        display: grid;
+        gap: 0.5rem;
+      }
+
+      .preview {
+        width: 100%;
+        height: auto;
+        max-height: 140px;
+        object-fit: cover;
+      }
+
+      .title-header {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0.25rem;
+      }
+
+      .pub-year {
+        display: inline-block;
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+        font-variant-numeric: tabular-nums;
+      }
+
+      .links {
+        margin-top: 0.35rem;
+      }
+    }
+  }
+}

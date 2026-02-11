@@ -5,7 +5,13 @@
 @use "variables" as v;
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+
+  &:not(.selected-publications) {
+    .pub-year {
+      display: none;
+    }
+  }
 
   h1 {
     color: var(--global-theme-color);
@@ -35,16 +41,43 @@
     list-style: none;
     padding: 0;
     margin-top: 0;
+    display: grid;
+    gap: 1.5rem;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
+      background: var(--global-card-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+
+      .pub-entry {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        align-items: start;
+      }
+
+      .pub-entry.has-media {
+        grid-template-columns: minmax(140px, 220px) 1fr;
+      }
+
+      .pub-media {
+        display: grid;
+        gap: 0.75rem;
+      }
 
       .preview {
-        display: inline-block;
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
       }
 
       .abbr {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
 
         abbr {
           display: inline-block;
@@ -68,10 +101,30 @@
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+
+      .title-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-bottom: 0.35rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid var(--global-divider-color);
+      }
+
+      .pub-year {
+        font-size: 0.95rem;
+        color: var(--global-text-color-light);
+        font-variant-numeric: tabular-nums;
       }
 
       .author {
+        font-size: 0.95rem;
+        line-height: 1.5;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -99,6 +152,11 @@
       }
 
       .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-top: 0.6rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -107,6 +165,8 @@
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          border-radius: 999px;
+          font-size: 0.85rem;
 
           &:hover {
             color: var(--global-theme-color);
@@ -120,6 +180,7 @@
 
       .badges {
         padding-bottom: 0.5rem;
+        margin-top: 0.5rem;
         span {
           display: inline-block;
           color: v.$black-color;
@@ -185,4 +246,25 @@
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+@media (max-width: 768px) {
+  .publications {
+    ol.bibliography {
+      li {
+        .pub-entry,
+        .pub-entry.has-media {
+          grid-template-columns: 1fr;
+        }
+
+        .pub-media {
+          order: 2;
+        }
+
+        .pub-body {
+          order: 1;
+        }
+      }
+    }
+  }
 }

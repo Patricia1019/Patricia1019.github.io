@@ -4,6 +4,31 @@
 
 @use "variables" as v;
 
+body {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
 p,
 h1,
 h2,
