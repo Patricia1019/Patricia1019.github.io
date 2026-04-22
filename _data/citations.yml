@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-04-22'
 papers:
   f_lK1RYAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -9,6 +9,10 @@ papers:
     citations: 1
     title: 'NeSyPack: A Neuro-Symbolic Framework for Bimanual Logistics Packing'
     year: '2025'
+  f_lK1RYAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: 'Emergent Neural Automaton Policies: Learning Symbolic Structure from Visuomotor Trajectories'
+    year: '2026'
   f_lK1RYAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations
