@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-18'
 papers:
   f_lK1RYAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -14,7 +14,7 @@ papers:
     title: 'Emergent Neural Automaton Policies: Learning Symbolic Structure from Visuomotor Trajectories'
     year: '2026'
   f_lK1RYAAAAJ:UeHWp8X0CEIC:
-    citations: 0
+    citations: 1
     title: Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations
     year: '2026'
   f_lK1RYAAAAJ:d1gkVwhDpl0C:
@@ -26,6 +26,6 @@ papers:
     title: 'Contingency Planning for Safety-Critical Autonomous Vehicles: A Review and Perspectives'
     year: '2026'
   f_lK1RYAAAAJ:u-x6o8ySG0sC:
-    citations: 22
+    citations: 23
     title: Recovering realistic details for magnification-arbitrary image super-resolution
     year: '2022'
