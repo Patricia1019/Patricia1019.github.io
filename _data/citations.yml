@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-06-05'
 papers:
   f_lK1RYAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -26,6 +26,10 @@ papers:
     title: 'Contingency Planning for Safety-Critical Autonomous Vehicles: A Review and Perspectives'
     year: '2026'
   f_lK1RYAAAAJ:u-x6o8ySG0sC:
-    citations: 23
+    citations: 25
     title: Recovering realistic details for magnification-arbitrary image super-resolution
     year: '2022'
+  f_lK1RYAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: Dynamic Neural Koopman Distillation for Real-Time Robot Control Using Diffusion Models
+    year: '2026'
