@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-07-08'
 papers:
   f_lK1RYAAAAJ:2osOgNQ5qMEC:
     citations: 1
@@ -10,8 +10,8 @@ papers:
     title: 'NeSyPack: A Neuro-Symbolic Framework for Bimanual Logistics Packing'
     year: '2025'
   f_lK1RYAAAAJ:IjCSPb-OGe4C:
-    citations: 0
-    title: 'Emergent Neural Automaton Policies: Learning Symbolic Structure from Visuomotor Trajectories'
+    citations: 2
+    title: 'Emergent neural automaton policies: Learning symbolic structure from visuomotor trajectories'
     year: '2026'
   f_lK1RYAAAAJ:UeHWp8X0CEIC:
     citations: 1
@@ -30,6 +30,6 @@ papers:
     title: Recovering realistic details for magnification-arbitrary image super-resolution
     year: '2022'
   f_lK1RYAAAAJ:zYLM7Y9cAGgC:
-    citations: 0
+    citations: 1
     title: Dynamic Neural Koopman Distillation for Real-Time Robot Control Using Diffusion Models
     year: '2026'
