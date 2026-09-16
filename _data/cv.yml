@@ -1,189 +1,185 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Peiqi Yu
+  headline: Third-year Ph.D. Candidate in Electrical and Computer Engineering
+  email: peiqiy@andrew.cmu.edu
+  location: Pittsburgh, PA
+  website: https://patricia1019.github.io/
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: peiqi-yu
 
   sections:
+    Research Interests:
+      - bullet: Self-improving embodied agents for long-horizon robotic manipulation, with a focus on agentic robotics, neuro-symbolic reasoning, and continual learning.
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Carnegie Mellon University
+        location: Pittsburgh, PA
+        url: https://www.cmu.edu/
+        area: Electrical and Computer Engineering
+        degree: Ph.D. Candidate
+        start_date: 2024-08
+        end_date: 2029-05
         highlights:
-          - Description 1.
-          - Description 2.
+          - Expected graduation in May 2029.
+          - "Courses: Introduction to Robot Learning (16-831), Advanced Control for Robotics (16-714), Kinematics for Robot Manipulation (16-741), Estimation, Detection, and Learning (18-752), Safe Robotics (16-883)."
+          - Advised by [Changliu Liu](https://icontrol.ri.cmu.edu/people/changliu.html).
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Carnegie Mellon University
+        location: Pittsburgh, PA
+        url: https://www.cmu.edu/
+        area: Electrical and Computer Engineering
+        degree: M.S.
+        start_date: 2024-08
+        end_date: 2026-05
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - institution: Tsinghua University
+        location: Beijing, China
+        url: https://www.tsinghua.edu.cn/en/
+        area: Automation
+        degree: B.Eng.
+        start_date: 2019-08
+        end_date: 2023-06
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "ManiSkillFormer: Demonstration-Free Compositional Manipulation via Geometric Contracts and Agentic Skill Graph"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Peiqi Yu
+          - Mosam Dabhi
+          - Shangtao Li
+          - Bowei Li
+          - Laszlo Jeni
+          - Changliu Liu
+        journal: Submitted to ICRA 2027
+        date: 2026
+        url: https://arxiv.org/abs/2609.16331
+        summary: "[Website](https://patricia1019.github.io/ManiSkillFormer/)"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Emergent Neural Automaton Policies: Learning Symbolic Structure from Visuomotor Trajectories"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Yiyuan Pan*
+          - Xusheng Luo*
+          - Hanjiang Hu
+          - Peiqi Yu
+          - Changliu Liu
+        journal: "Robotics: Science and Systems (RSS)"
+        date: 2026
+        url: https://arxiv.org/pdf/2603.25903
+        summary: "[Website](https://intelligent-control-lab.github.io/ENAP-project-webpage/)"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Peiqi Yu*
+          - Philip Huang*
+          - Chaitanya Chawla*
+          - Guanya Shi
+          - Jiaoyang Li
+          - Changliu Liu
+        journal: "ICRA Workshop on Multi-Agent Robotic Systems: Real-World Collaboration and Interaction"
+        date: 2026
+        url: https://arxiv.org/pdf/2603.12649
+        summary: "[Website](https://intelligent-control-lab.github.io/AIDF/)"
+
+      - title: Dynamic Neural Koopman Distillation for Real-Time Robot Control Using Diffusion Models
+        authors:
+          - Lei Zheng
+          - Peiqi Yu
+          - Zengqi Peng
+          - Changliu Liu
+          - Armin Lederer
+        journal: Preprint
+        date: 2026
+        url: https://arxiv.org/pdf/2605.24924
+        summary: "[Website](https://fdkoopman.github.io/)"
+
+      - title: "NeSyPack: A Neuro-Symbolic Framework for Bimanual Logistics Packing"
+        authors:
+          - Bowei Li*
+          - Peiqi Yu*
+          - Zhenran Tang
+          - Han Zhou
+          - Yifan Sun
+          - Ruixuan Liu
+          - Changliu Liu
+        journal: RSS Workshop on Benchmarking Robot Manipulation
+        date: 2025
+        url: https://arxiv.org/pdf/2506.06567
+        summary: "[Website](https://icontrol.ri.cmu.edu/news/icra2025-wbcd.html)"
+
+      - title: Robustifying Long-term Human-Robot Collaboration through a Multimodal and Hierarchical Framework
+        authors:
+          - Peiqi Yu*
+          - Abulikemu Abuduweili*
+          - Ruixuan Liu
+          - Changliu Liu
+        journal: IFAC Cyber-Physical & Human Systems
+        date: 2026
+        url: https://arxiv.org/pdf/2411.15711
+
+      - title: Recovering Realistic Details for Magnification-Arbitrary Image Super-Resolution
+        authors:
+          - Cheng Ma
+          - Peiqi Yu
+          - Jiwen Lu
+          - Jie Zhou
+        journal: IEEE Transactions on Image Processing
+        date: 2022
+        url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9776607
+
+    Experience:
+      - company: Embodied Agent Group, ModelBest Inc.
+        position: Research Intern
+        location: Beijing, China
+        start_date: 2024-02
+        end_date: 2024-07
+        summary: Advised by Zhiyuan Liu; latent action prediction in vision-language models.
+        highlights:
+          - Investigated state-of-the-art multimodal and video-based embodied learning methods, including Flamingo, Genie, UniPi, Video PreTraining (VPT), and AVDC, and explored latent-action learning by predicting future visual states and recovering control actions from frame transitions via inverse dynamics.
+
+      - company: Intelligent Control Lab, Carnegie Mellon University
+        position: Research Intern
+        location: Pittsburgh, PA
+        start_date: 2023-09
+        end_date: 2023-12
+        summary: Advised by Changliu Liu; human-robot collaboration and time-series prediction.
+        highlights:
+          - Proposed and developed a multimodal hierarchical human-robot collaboration framework integrating vision, speech, hierarchical plan prediction, and online user adaptation; deployed it on a Kinova Gen3 for long-horizon toy car assembly, achieving 91.8% task success, 15.9% faster completion, and 84% user satisfaction.
+
+      - company: Computer Vision Lab, Tsinghua University
+        position: Undergraduate Research Intern
+        location: Beijing, China
+        start_date: 2021-05
+        end_date: 2022-05
+        summary: Advised by Jiwen Lu; 2D image super-resolution.
+        highlights:
+          - Co-developed Implicit Pixel Flow (IPF), a model-agnostic coordinate-warping framework for photorealistic arbitrary-scale super-resolution.
+
+    Service:
+      - label: Reviewer, IEEE International Conference on Robotics and Automation (ICRA)
+        details: 2025, 2026
+      - label: Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        details: 2025, 2026
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        summary: Python, C/C++, SQL, MATLAB, LaTeX
+      - name: Frameworks & Simulators
+        summary: PyTorch, ROS/ROS2, Isaac Sim, MuJoCo, Gazebo
+      - name: Robot Platforms
+        summary: Unitree G1, Galaxea R1Lite, AgiBot G1, Kinova, Yaskawa
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Honors and Awards:
+      - name: First Prize, ICRA WBCD Competition
+        title: First Prize, ICRA WBCD Competition
+        date: 2025
+        awarder: IEEE International Conference on Robotics and Automation
+        url: https://icontrol.ri.cmu.edu/news/icra2025-wbcd.html
+      - name: Second Prize, Electronics Design Contest
+        title: Second Prize, Electronics Design Contest
+        date: 2022
+        awarder: Tsinghua University
+      - name: Third Prize, Challenge Cup
+        title: Third Prize, Challenge Cup
+        date: 2021
+        awarder: Tsinghua University

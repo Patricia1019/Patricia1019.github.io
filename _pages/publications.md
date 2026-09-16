@@ -22,6 +22,8 @@ nav_order: 1
 
 <div class="publications">
 
+<p><sup>*</sup> Equal contribution.</p>
+
 {% bibliography %}
 
 </div>

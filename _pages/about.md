@@ -23,10 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second year Ph.D. student in the [`Intelligent Control Lab`](https://icontrol.ri.cmu.edu/) at the [`Department of ECE`](https://www.ece.cmu.edu/) of [`Carnegie Mellon University`](https://www.cmu.edu/), advised by [`Prof.Changliu Liu`](https://icontrol.ri.cmu.edu/people/changliu.html).
+I am a third-year Ph.D. candidate in the [`Intelligent Control Lab`](https://icontrol.ri.cmu.edu/) at the [`Department of ECE`](https://www.ece.cmu.edu/) of [`Carnegie Mellon University`](https://www.cmu.edu/), advised by [`Prof. Changliu Liu`](https://icontrol.ri.cmu.edu/people/changliu.html).
 
-My research focuses on `long-horizon robotic manipulation` using `neuro-symbolic` skill representations that bridge symbolic planning and continuous control. My work combines skill-based abstractions, TAMP, and learning-based methods to enable robust multi-stage execution and `failure recovery` in real-world environments.
+I work toward `self-improving embodied agents` for long-horizon robotic manipulation, with a focus on `agentic robotics`, `neuro-symbolic reasoning`, and `continual learning`.
 
-I received my Bachelor's degree in Automation at Tsinghua University, advised by [`Prof.Jiwen Lu`](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/).
-
-I am currently seeking summer internship opportunities in robotics, machine learning, and automation.
+I received my M.S. in Electrical and Computer Engineering from Carnegie Mellon University in May 2026 and my B.Eng. in Automation from Tsinghua University in June 2023. At Tsinghua, I worked with [`Prof. Jiwen Lu`](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) on computer vision.

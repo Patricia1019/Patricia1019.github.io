@@ -20,6 +20,8 @@
             {{ keyword }},
           {% endif %}
         {% endfor %}
+      {% elsif entry.summary %}
+        {{ entry.summary }}
       {% endif %}
     </div>
   {% endfor %}

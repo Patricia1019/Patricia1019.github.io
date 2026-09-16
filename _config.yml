@@ -7,14 +7,14 @@ first_name: Peiqi
 middle_name:
 last_name: Yu
 contact_note: >
-  <img src="/assets/img/location.png" alt="Location" style="height:1em; width:1em; vertical-align:-0.1em; margin-right:0.35em;"> Pittsburgh, PA, 15213, USA
+  <img src="/assets/img/location.png" alt="Location" style="height:1em; width:1em; vertical-align:-0.1em; margin-right:0.35em;"> Pittsburgh, PA
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Peiqi Yu is a third-year Ph.D. candidate in Electrical and Computer Engineering at Carnegie Mellon University researching self-improving embodied agents for long-horizon robotic manipulation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: robotics, embodied agents, robot manipulation, neuro-symbolic reasoning, continual learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -282,8 +282,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yu]
+  first_name: [Peiqi, P.]
 
   style: apa
   locale: en
