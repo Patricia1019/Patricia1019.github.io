@@ -28,6 +28,15 @@ jobs:
         with:
           files: ./*.md
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install formatting dependencies
+        run: npm ci
+
       - name: Updated toc on all markdown changed files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
@@ -42,6 +51,7 @@ jobs:
             ./gh-md-toc --indent 2 --insert --no-backup --hide-footer $file
           done
           rm gh-md-toc
+          npx prettier ${ALL_CHANGED_FILES} --write
 
       - name: Commit changes
         if: steps.changed-files.outputs.any_changed == 'true'
