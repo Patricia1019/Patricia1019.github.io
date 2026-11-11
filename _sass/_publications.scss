@@ -60,19 +60,25 @@
       }
 
       .pub-entry.has-media {
-        grid-template-columns: minmax(140px, 220px) 1fr;
+        grid-template-columns: minmax(260px, 42%) minmax(0, 1fr);
       }
 
       .pub-media {
         display: grid;
         gap: 0.75rem;
+
+        figure {
+          margin: 0;
+        }
       }
 
       .preview {
         width: 100%;
+        aspect-ratio: 16 / 10;
         height: auto;
-        max-height: 160px;
-        object-fit: cover;
+        max-height: 260px;
+        object-fit: contain;
+        background: var(--global-code-bg-color);
         border-radius: 10px;
       }
 
@@ -258,11 +264,11 @@
         }
 
         .pub-media {
-          order: 2;
+          order: 1;
         }
 
         .pub-body {
-          order: 1;
+          order: 2;
         }
       }
     }

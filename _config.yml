@@ -3,13 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+browser_title: "Peiqi Yu · Robotics Researcher"
 first_name: Peiqi
 middle_name:
 last_name: Yu
 contact_note: >
   <img src="/assets/img/location.png" alt="Location" style="height:1em; width:1em; vertical-align:-0.1em; margin-right:0.35em;"> Pittsburgh, PA
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Peiqi Yu is a third-year Ph.D. candidate in Electrical and Computer Engineering at Carnegie Mellon University researching self-improving embodied agents for long-horizon robotic manipulation.
+  Peiqi Yu is a robotics researcher and third-year Ph.D. candidate at Carnegie Mellon University studying agentic robotics, in-context learning, and skill-based systems for long-horizon manipulation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
