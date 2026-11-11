@@ -20,8 +20,8 @@
 
       .pub-entry,
       .pub-entry.has-media {
-        grid-template-columns: minmax(250px, 40%) minmax(0, 1fr);
-        gap: 1.35rem;
+        grid-template-columns: minmax(140px, 180px) 1fr;
+        gap: 1rem;
       }
 
       .pub-media {
@@ -31,10 +31,9 @@
 
       .preview {
         width: 100%;
-        aspect-ratio: 16 / 10;
         height: auto;
-        max-height: 230px;
-        object-fit: contain;
+        max-height: 140px;
+        object-fit: cover;
       }
 
       .title-header {

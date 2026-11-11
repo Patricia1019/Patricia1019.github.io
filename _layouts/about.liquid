@@ -64,43 +64,6 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Academic service -->
-    {% if page.academic_service and page.academic_service.enabled %}
-      <section class="academic-service" id="academic-service" aria-labelledby="academic-service-title">
-        <h2 id="academic-service-title">academic service</h2>
-        <div class="service-list">
-          {% for item in page.academic_service.items %}
-            <article class="service-item">
-              <span class="service-abbreviation">{{ item.abbreviation }}</span>
-              <div>
-                <h3>{{ item.venue }}</h3>
-                <p>
-                  {{ item.role }}
-                  <span aria-hidden="true">·</span> {{ item.years }}
-                </p>
-              </div>
-            </article>
-          {% endfor %}
-        </div>
-      </section>
-    {% endif %}
-
-    <!-- Visitor map -->
-    {% if page.visitors and page.visitors.enabled %}
-      <section class="visitor-map" id="visitors" aria-labelledby="visitors-title">
-        <h2 id="visitors-title">visitors around the world</h2>
-        <div class="visitor-map-card">
-          <img
-            src="https://github-visitor-counter-tau.vercel.app/api?username=Patricia1019&columns=4&maxflags=12&showlabels=true"
-            alt="Live country flags showing visitors to Peiqi Yu's website"
-            loading="lazy"
-            referrerpolicy="no-referrer"
-          >
-          <p>Thank you for visiting.</p>
-        </div>
-      </section>
-    {% endif %}
-
     <!-- Social -->
     {% if page.social %}
       <div class="social">
