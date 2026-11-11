@@ -72,21 +72,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-      - name: Clear stale Pages deployment 🧹
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          response_code=$(curl --silent --show-error --location --request POST \
-            --output /tmp/pages-cancel-response \
-            --write-out "%{http_code}" \
-            --header "Accept: application/vnd.github+json" \
-            --header "Authorization: Bearer ${GH_TOKEN}" \
-            --header "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/deployments/4353660ff724567685af9ec3a39763b9bc4be529/cancel")
-          if [[ "${response_code}" != "204" && "${response_code}" != "404" ]]; then
-            cat /tmp/pages-cancel-response
-            exit 1
-          fi
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
