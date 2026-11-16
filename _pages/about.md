@@ -27,7 +27,7 @@ Peiqi Yu is a third-year Ph.D. candidate in the [`Intelligent Control Lab`](http
 
 My research centers on one question:
 
-> **How can a robot organize and improve its capabilities so its autonomy grows with experience?**
+**How can a robot organize and improve its capabilities so its autonomy grows with experience?**
 
 Specifically, I study `long-horizon manipulation`. My current research interests include `agentic robotics`, `in-context learning`, and `skill-based systems`. I am also interested in extending this work to loco-manipulation and dex-manipulation.
 
