@@ -25,10 +25,9 @@ latest_posts:
 
 Peiqi Yu is a third-year Ph.D. candidate in the [`Intelligent Control Lab`](https://icontrol.ri.cmu.edu/) at the [`Department of ECE`](https://www.ece.cmu.edu/) of [`Carnegie Mellon University`](https://www.cmu.edu/), advised by [`Prof. Changliu Liu`](https://icontrol.ri.cmu.edu/people/changliu.html).
 
-My research centers on one question:
 
-**How can a robot organize and improve its capabilities so its autonomy grows with experience?**
-
-Specifically, I study `long-horizon manipulation`. My current research interests include `agentic robotics`, `in-context learning`, and `skill-based systems`. I am also interested in extending this work to loco-manipulation and dex-manipulation.
+My research targets efficient and reliable `long-horizon robot manipulation`, focusing on
+**agentic robotics**, **skill-based systems**, and **hierarchical robot learning**.
+In the future, I am also interested in extending these ideas to *loco-manipulation* and *dexterous manipulation*.
 
 I received my B.Eng. in Automation from Tsinghua University in June 2023. At Tsinghua, I worked with [`Prof. Jiwen Lu`](https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) on computer vision.
