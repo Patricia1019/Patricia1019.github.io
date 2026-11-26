@@ -43,7 +43,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -51,7 +51,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -59,9 +59,32 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
       </h2>
       {% include latest_posts.liquid %}
+    {% endif %}
+
+    {% if page.academic_services %}
+      {% assign academic_services = site.data.cv.cv.sections['Academic Services'] %}
+      {% if academic_services.size > 0 %}
+        <h2 class="mt-5">Academic Services</h2>
+        <ul>
+          {% for entry in academic_services %}
+            <li>
+              {{
+                entry.label
+                | escape
+                | replace_first: 'Invited Reviewer,', '<strong>Invited Reviewer</strong>,'
+                | replace_first: 'Chair of', '<strong>Chair</strong> of'
+              }}
+              {% if entry.emphasis %}
+                <strong>{{ entry.emphasis | escape }}</strong>
+              {% endif %}
+              ({{ entry.details | escape }})
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     {% endif %}
 
     <!-- Social -->

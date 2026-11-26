@@ -193,7 +193,11 @@ layout: default
                     </ul>
                   {% elsif entry.label %}
                     <div class="card-text font-weight-light">
-                      <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                      <strong>
+                        {{- entry.label -}}
+                        {%- if entry.emphasis %} {{ entry.emphasis }}{% endif %}:</strong
+                      >
+                      {{ entry.details }}
                     </div>
                   {% endif %}
                 {% endfor %}

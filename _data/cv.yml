@@ -155,10 +155,20 @@ cv:
         highlights:
           - Co-developed Implicit Pixel Flow (IPF), a model-agnostic coordinate-warping framework for photorealistic arbitrary-scale super-resolution.
 
-    Service:
-      - label: Reviewer, IEEE International Conference on Robotics and Automation (ICRA)
+    Academic Services:
+      - label: "Invited Reviewer, Robotics: Science and Systems"
+        emphasis: (RSS)
+        details: "2027"
+      - label: Chair of the HRI Session, 2026 IFAC Workshop on Cyber-Physical Human Systems
+        emphasis: (CPHS)
+        details: "2026"
+      - label: Teaching Assistant, 18-842 Autonomous Robotics
+        details: "2026"
+      - label: Invited Reviewer, IEEE International Conference on Robotics and Automation
+        emphasis: (ICRA)
         details: 2025, 2026
-      - label: Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+      - label: Invited Reviewer, IEEE/RSJ International Conference on Intelligent Robots and Systems
+        emphasis: (IROS)
         details: 2025, 2026
 
     Skills:
