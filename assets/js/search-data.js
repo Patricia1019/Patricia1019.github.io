@@ -25,6 +25,12 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-present-at-the-rss-workshop-on-neuro-symbolic-packing-nesypack-sparkles",
           title: 'Excited to present at the RSS Workshop on Neuro-Symbolic Packing (NeSyPack)! :sparkles:',
           description: "",
+          section: "News",},{id: "news-happy-to-share-that-i-passed-my-ece-phd-qualifying-exam-and-am-officially-a-phd-candidate",
+          title: 'Happy to share that I passed my ECE PhD qualifying exam and am...',
+          description: "",
+          section: "News",},{id: "news-excited-to-share-that-i-earned-my-master-s-degree-in-electrical-and-computer-engineering-from-carnegie-mellon-university",
+          title: 'Excited to share that I earned my master’s degree in Electrical and Computer...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
